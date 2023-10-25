@@ -12,7 +12,7 @@ import {
   } from "firebase/firestore";
   import React, { useContext, useState } from 'react'
   import { db } from '../firebase'
-  import {AuthContext} from "../context/AuthContex"
+  import {AuthContext} from "../context/AuthContext"
   
   function Search() {
   

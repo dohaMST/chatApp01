@@ -3,7 +3,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom"
 import { Children, useContext } from "react";
-import { AuthContext } from "./context/AuthContex";
+import { AuthContext } from "./context/AuthContext";
 
 function App() {
 

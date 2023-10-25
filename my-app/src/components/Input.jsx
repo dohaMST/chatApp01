@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { AuthContext } from '../context/AuthContex'
+import { AuthContext } from '../context/AuthContext'
 import { ChatContext } from '../context/ChatContext'
 import { v4 as uuid } from 'uuid';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage'

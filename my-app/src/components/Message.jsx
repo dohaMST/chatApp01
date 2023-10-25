@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useRef } from 'react'
-import { AuthContext } from '../context/AuthContex'
+import { AuthContext } from '../context/AuthContext'
 import { ChatContext } from '../context/ChatContext'
 
 function Message({message}) {
