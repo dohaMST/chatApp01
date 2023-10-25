@@ -8,7 +8,6 @@ function Sidebar() {
     <div className='sidebar' >
       <Navbar/>
       <Search />
-      {/* <div>gdgdg</div> */}
       <Chats/>
     </div>
   )

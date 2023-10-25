@@ -38,8 +38,6 @@
                     }
                 }
                 .user{
-                    // background-color: red;
-                    // padding: 1rem;
                     display: flex;
                     align-items: center;
                     gap: .5rem;
@@ -74,10 +72,8 @@
                 }
             }
             .search{
-                // background-color: red;
                 border-bottom:1px solid #5e5e62 ;
                 .searchForm{
-                    // background-color: darkblue;
                     input{
                         width: 100%;
                         padding: .7rem;
@@ -87,40 +83,11 @@
                         color: #fff;
                         &::placeholder{
                             color: lightgray;
-                            // text-transform: capitalize;
                         }
                     }
                 }
-                // .userChat{
-                //     // background-color: red;
-                //     color: #ddddf7;
-                //     display: flex;
-                //     align-items: center;
-                //     padding: .5rem;
-                //     gap: .5rem;
-                //     cursor: pointer;
-                //     transition: background-color .3s ease-in-out;
-                //     &:hover{
-                //         background-color: #2f2d52;
-                //     }
-                //     img{
-                //         width: 2rem;
-                //         height: 2rem;
-                //         object-fit: cover;
-                //         border-radius: 50%;
-                //     }
-                //     .userInfo{
-                //         // background-color: aqua;
-                //         span{
-                //             text-transform: capitalize;
-                //             // font-size: 1.1rem;
-                //             font-weight: 500;
-                //         }
-                //     }
-                // }
             }
             .userChat{
-                // background-color: red;
                 color: #ddddf7;
                 display: flex;
                 align-items: center;
@@ -138,10 +105,8 @@
                     border-radius: 50%;
                 }
                 .userInfo{
-                    // background-color: aqua;
                     span{
                         text-transform: capitalize;
-                        // font-size: 1.1rem;
                         font-weight: 500;
                     }
                     p{
@@ -160,18 +125,14 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: .8rem;
-                // color: lightgray;
                 span{
                     color: lightgray;
                     text-transform: capitalize;
-                    // font-size: 1.2rem;
                 }
                 .chatIcons{
-                    // background-color: aqua;
                     display: flex;
                     gap: .5rem;
                     img{
-                        // width: ;
                         height: 1.5rem;
                         cursor: pointer;
                     }
@@ -183,13 +144,10 @@
                 height: calc(100% - 99.6px);
                 overflow-y: scroll;
                 .message{
-                    // background-color: #2f2d52;
                     margin-bottom: 1.2rem;
                     display: flex;
-                    // align-items: center;
                     gap: .5rem;
                     .messageInfo{
-                        // background-color: red;
                         display: flex;
                         flex-direction: column;
                         gap: .5rem;
@@ -207,14 +165,12 @@
                         }
                     }
                     .messageContent{
-                        // background-color: red;
                         max-width: 80%;
                         display: flex;
                         flex-direction: column;
                         gap: .5rem;
 
                         p{
-                            // background-color: aqua;
                             background-color: #fff;
                             padding: .7rem 1.2rem;
                             border-radius: 0 10px 10px;
@@ -226,19 +182,13 @@
                     }
                     &.owner{
                         flex-direction: row-reverse;
-                        // background-color: aqua;
                         .messageContent{
-                            // flex-direction: column-reverse;
                             align-items: end;
-                            // background-color: #2f2d52;
                             p{
                                 border-radius: 10px 0 10px 10px;
                                 background-color: #8da4f1;
                                 color: white;
                             }
-                        }
-                        p{
-
                         }
                     }
                     
@@ -249,12 +199,10 @@
                 padding: 1rem;
                 background-color: #fff;
                 display: flex;
-                // border-bottom: 2px solid red;
                 align-items: center;
                 justify-content: space-between;
                 input{
                     border: none;
-                    // background-color: ;
                     outline: none;
                     width: 100%;
                     color: #2f2d52;
@@ -280,7 +228,6 @@
                         text-transform: capitalize;
                     }
                     img{
-                        // width: ;
                         height: 1.5rem;
                         cursor: pointer;
                     }

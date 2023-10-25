@@ -15,7 +15,6 @@ function Message({message}) {
   const {data} = useContext(ChatContext)
   console.log("the message :",message)
 
-  // const dateInf = new Date()
 
   return (
     <div  ref={ref}

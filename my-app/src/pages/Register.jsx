@@ -55,9 +55,7 @@ function Register() {
             //create empty user chats on firestore
             await setDoc(doc(db, "userChats", res.user.uid), {});
 
-            // console.log("everything went well")
             navigate("/");
-            // console.log("everything went well")
           } catch (err) {
             console.log(err);
             setErr(true);
@@ -78,7 +76,6 @@ function Register() {
             <span className="title">register</span>
 
             <form onSubmit={handleSubmit}>
-            {/* <form> */}
                 <input type="text" placeholder='display name' />
                 <input type="email" placeholder='email' />
                 <input type="password" placeholder='password' />

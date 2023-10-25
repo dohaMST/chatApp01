@@ -49,27 +49,7 @@ function Chats() {
         )
       })}
       
-      {/* <div className="userChat">
-        <img src="https://images.pexels.com/photos/18528247/pexels-photo-18528247/free-photo-of-mode-homme-amour-gens.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
-        <div className="userInfo">
-          <span>Jennifer Winget</span>
-          <p>hello</p>
-        </div>
-      </div>
-      <div className="userChat">
-        <img src="https://images.pexels.com/photos/18528247/pexels-photo-18528247/free-photo-of-mode-homme-amour-gens.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
-        <div className="userInfo">
-          <span>Jennifer Winget</span>
-          <p>hello</p>
-        </div>
-      </div>
-      <div className="userChat">
-        <img src="https://images.pexels.com/photos/18528247/pexels-photo-18528247/free-photo-of-mode-homme-amour-gens.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
-        <div className="userInfo">
-          <span>Jennifer Winget</span>
-          <p>hello</p>
-        </div>
-      </div> */}
+      
     </div>
   )
 }
