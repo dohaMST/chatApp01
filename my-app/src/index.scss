@@ -1,0 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@mixin mobile{
+  @media screen and (max-width: 480px) {
+    @content;
+    
+  }
+}
+
+@mixin tablet{
+  @media screen and (max-width: 768px) {
+    @content;
+    
+  }
+}
+@mixin mobile{
+  @media screen and (max-width: 1200px) {
+    @content;
+    
+  }
+}
+@import "./styles/register";
+@import "./styles/sidebar";
+@import "./styles/home";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}

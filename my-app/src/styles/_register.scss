@@ -1,0 +1,88 @@
+.formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .formWrapper{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 3.5rem 4rem;
+        border-radius: .5rem;
+        .logo{
+            // background-color: red;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #5d5b8d;
+            margin-bottom: 1rem;
+        }
+        .title{
+            text-align: center;
+            color: #5d5b8d;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            letter-spacing: 1.5px;
+            font-size: 1.2rem;
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            input{
+                padding: .5rem;
+                border: none;
+                border-bottom: 1px solid #a7bcff;
+                font-size: 1.1rem;
+                &::placeholder{
+                    color: rgb(175, 175, 175);
+                    text-transform: capitalize;
+                }
+            }
+            label{
+                // background-color: red;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                color: #8da4f1;
+                cursor: pointer;
+                span{
+                    font-size: .9rem;
+                    // color: 
+                }
+                img{
+                    width:32px ;
+                    // height: ;
+                }
+            }
+            button{
+                color: #fff;
+                font-size: 1.2rem;
+                text-transform: capitalize;
+                font-weight: 700;
+                letter-spacing: 1.7px;
+                cursor: pointer;
+                background-color: #7b96ec;
+                border: none;
+                border-radius: .5rem;
+                padding: .7rem 0;
+                transition: transform .5s ease-in-out;
+                margin-top: 1rem;
+                &:hover{
+                    background-color: #536bbb;
+                    transform: scale(1.05);
+                }
+            }
+        }
+        p{
+            text-transform: capitalize;
+            margin-top: 1rem;
+            font-size: .7rem;
+            text-align: center;
+        }
+    }
+}
